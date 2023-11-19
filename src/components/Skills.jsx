@@ -9,7 +9,7 @@ export const Skills = () => {
       <div className='skills-front-end'>
         <h3 className='skill-title '>Front End</h3>
         <FaHtml5 className='skill-icon skill-icon-html' />
-        <FaReact className='skill-icon' />
+        <FaReact className='skill-icon skill-icon-react' />
         <FaNpm className='skill-icon' />
       </div>
       <div className='skills-back-end'>
