@@ -33,3 +33,9 @@
 .skill-title {
     margin: 0.5rem;
 }
+
+.skill-icon-html:hover {
+    color: #E34C26;
+    font-size: 3rem;
+    transition: 300ms;
+}
