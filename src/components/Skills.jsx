@@ -7,14 +7,14 @@ export const Skills = () => {
   return (
     <div className='skills-box'>
       <div className='skills-front-end'>
-        <h3 className='skill-title '>Front End</h3>
+        <h3 className='skill-title'>Front End</h3>
         <FaHtml5 className='skill-icon skill-icon-html' />
         <FaReact className='skill-icon skill-icon-react' />
         <FaNpm className='skill-icon skill-icon-npm' />
       </div>
       <div className='skills-back-end'>
-        <h3 className='skill-title '>Back End</h3>
-        <FaJava className='skill-icon' />
+        <h3 className='skill-title'>Back End</h3>
+        <FaJava className='skill-icon skill-icon-java' />
         <SiSpringboot className='skill-icon' />
         <SiMysql className='skill-icon' />
       </div>
