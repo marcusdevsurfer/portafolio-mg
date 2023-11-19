@@ -1,5 +1,6 @@
 import React from 'react'
 import '../PersonalDescription.css'
+import { Skills } from './Skills'
 export const PersonalDescription = () => {
   return (
     <div className='personal-description-box'>
@@ -7,6 +8,7 @@ export const PersonalDescription = () => {
       <div className='personal-description-resume'>
         <h1>Welcome.</h1>
         <p>I'm Marcus Gonzalez, Full Stack Developer with 4 year's of experience.</p>
+        <Skills/>
       </div>
 
       <div className='personal-description-projects'>
