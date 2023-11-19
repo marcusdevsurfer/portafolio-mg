@@ -53,13 +53,17 @@
 }
 
 .skill-icon-java:hover {
-    color: #5382a1;
+    color: #5382A1;
+    font-size: 2.6rem;
+    transition: 400ms;
+}
+
+.skill-icon-spring:hover {
+    color: #8BC34A;
     font-size: 2.6rem;
     transition: 400ms;
 }
 
 /*
-    JAVA #5382a1
     MYSQL #00758F
-    Spring #8BC34A
  */

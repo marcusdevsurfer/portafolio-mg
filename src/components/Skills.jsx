@@ -15,7 +15,7 @@ export const Skills = () => {
       <div className='skills-back-end'>
         <h3 className='skill-title'>Back End</h3>
         <FaJava className='skill-icon skill-icon-java' />
-        <SiSpringboot className='skill-icon' />
+        <SiSpringboot className='skill-icon skill-icon-spring' />
         <SiMysql className='skill-icon' />
       </div>
     </div>
