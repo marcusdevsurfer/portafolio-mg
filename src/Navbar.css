@@ -3,15 +3,15 @@
     background-color: #0B0C0C;
     display: flex;
     justify-content: space-around;
-    
+
 }
 
-.logo-navbar{
+.logo-navbar {
     font-size: 2rem;
     color: white;
 }
 
-.logo-navbar-img{
+.logo-navbar-img {
     padding: 1rem;
 
 }

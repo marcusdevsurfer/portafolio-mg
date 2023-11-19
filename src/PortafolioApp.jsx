@@ -6,7 +6,6 @@ export const PortafolioApp = () => {
   return (
     <>
         <Navbar/>
-
         <PersonalDescription/>
     </>
   )
