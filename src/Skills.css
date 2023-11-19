@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+.skills-box {
+    display: flex;
+    background-color: white;
+    color : black;
+    margin-top: 1rem;
+    border-radius:5px;  
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+.skills-front-end {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+
+}
+
+.skills-back-end {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.skill-icon {
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+.skill-title {
+    margin: 0.5rem;
+}
