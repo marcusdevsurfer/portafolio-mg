@@ -37,35 +37,35 @@
 .skill-icon-html:hover {
     color: #E34C26;
     font-size: 2.6rem;
-    transition: 400ms;
+    transition: 50ms;
 }
 
 .skill-icon-react:hover {
     color: #61DBFB;
     font-size: 2.6rem;
-    transition: 400ms;
+    transition: 50ms;
 }
 
 .skill-icon-npm:hover {
     color: #CC3534;
     font-size: 2.6rem;
-    transition: 400ms;
+    transition: 50ms;
 }
 
 .skill-icon-java:hover {
     color: #5382A1;
     font-size: 2.6rem;
-    transition: 400ms;
+    transition: 50ms;
 }
 
 .skill-icon-spring:hover {
     color: #8BC34A;
     font-size: 2.6rem;
-    transition: 400ms;
+    transition: 50ms;
 }
 
 .skill-icon-mysql:hover {
     color: #00758F;
     font-size: 2.6rem;
-    transition: 400ms;
+    transition: 50ms;
 }
