@@ -5,18 +5,31 @@
     width: 50vw;
     display: flex;
     flex-direction: column;
+    align-items: start;
     justify-content: center;
-    text-align:justify;
     font-family: 'Noto Sans JP', sans-serif;
+    color: white;
 }
 
 .experience-description {
     color: white;
-    padding :1rem;
-    margin: 1rem;
+    display: flex;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    text-align: justify;
 }
 
-.experience-description h3 {
-    font-family: 'Kdam Thmor Pro', sans-serif;
+.experience-description-year {
+    margin-right: 2rem;
+    text-align:center;
+}
+
+.experience-description-job {
+    margin-left: 1rem;
+}
+
+.experience-description-job h4 {
+    font-style: italic;
 }
 
