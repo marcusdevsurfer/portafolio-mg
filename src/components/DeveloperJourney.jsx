@@ -4,17 +4,27 @@ import '../DeveloperJourney.css'
 export const DeveloperJourney = () => {
   return (
     <div className='developer-journey-box'>
-        <div className='experience-description'>
-            <h3>HCLTECH</h3>
-            
-            <strong>2021-2023</strong>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, eum id repellendus eaque inventore obcaecati illum unde ex laudantium? Saepe minus ipsum consectetur maiores ut enim nemo dolor, ratione nulla.</p>
+      <h2>Work Experience</h2>
+
+      <div className='experience-description'>
+        <div className='experience-description-year'>
+          2023 - Now
         </div>
-        <div className='experience-description'>
-            <h3>IBM</h3>
-            <strong>2023-Actually</strong>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, eum id repellendus eaque inventore obcaecati illum unde ex laudantium? Saepe minus ipsum consectetur maiores ut enim nemo dolor, ratione nulla.</p>
+        <div className='experience-description-job'>
+          <h4>IBM - Java Developer</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita illum, eveniet consequuntur architecto libero accusamus doloremque quo quidem quaerat dolores at deleniti laudantium assumenda reiciendis porro obcaecati optio debitis quae.</p>
         </div>
+      </div>
+
+      <div className='experience-description'>
+        <div className='experience-description-year'>
+          2021 - 2023
+        </div>
+        <div className='experience-description-job'>
+          <h4>HCLTECH - Software Enginner</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita illum, eveniet consequuntur architecto libero accusamus doloremque quo quidem quaerat dolores at deleniti laudantium assumenda reiciendis porro obcaecati optio debitis quae.</p>
+        </div>
+      </div>
     </div>
   )
 }
