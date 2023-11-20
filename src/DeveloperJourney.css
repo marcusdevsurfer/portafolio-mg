@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200&display=swap');
+
+.developer-journey-box {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:justify;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.experience-description {
+    color: white;
+    padding :1rem;
+    margin: 1rem;
+}
+
+.experience-description h3 {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
