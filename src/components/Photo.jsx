@@ -1,7 +1,5 @@
 import React from 'react'
 
-
-
 export const Photo = () => {
   return (
     <div className='container p-1'>
