@@ -1,18 +1,18 @@
 import React from 'react'
-import { BsLinkedin, BsGithub, BsFillTerminalFill } from "react-icons/bs";
 
-import '../Navbar.css'
+const style = {
+    'minHeight': '8vh'
+}
 
 export const Navbar = () => {
-  return (
-    <div className='navbar'>
-      <div className='logo-navbar'>
-        <BsFillTerminalFill className='logo-navbar-img' />
-      </div>
-      <div className='links-navbar'>
-        <BsLinkedin className='link-item' />
-        <BsGithub className='link-item' />
-      </div>
-    </div>
-  )
+    return (
+            <nav style={style} class="navbar navbar-expand-lg bg-black">
+                <div class="container-fluid">
+                    <a class="navbar-brand border bg-white rounded-circle bg-black p-1" href="#">MG</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="text-white navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+    )
 }

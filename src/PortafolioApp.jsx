@@ -1,12 +1,16 @@
 import React from 'react'
 import { Navbar } from './components/Navbar'
-import { PersonalDescription } from './components/PersonalDescription'
+import { Presentation } from './components/Presentation'
+import { Timeline } from './components/Timeline'
+import { Footer } from './components/Footer'
 
 export const PortafolioApp = () => {
   return (
     <>
         <Navbar/>
-        <PersonalDescription/>
+        <Presentation/>
+        <Timeline/>
+        <Footer/>
     </>
   )
 }

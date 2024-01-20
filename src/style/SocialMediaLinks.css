@@ -1,0 +1,8 @@
+.social-media-link {
+    color: inherit;
+}
+
+.social-media-link :hover {
+    color: #0B60B0;
+    transition: 250ms;
+}
