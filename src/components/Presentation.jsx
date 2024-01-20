@@ -1,8 +1,6 @@
 import React from 'react'
 import { Photo } from './Photo'
 import { Resume } from './Resume'
-import { SocialMediaLinks } from './SocialMediaLinks'
-
 
 const style = {
   'minHeight': '92vh' 
