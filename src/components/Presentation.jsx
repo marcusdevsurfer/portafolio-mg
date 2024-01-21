@@ -13,10 +13,10 @@ export const Presentation = () => {
   return (
     <div style={style} className='container-fluid d-flex justify-content-center align-items-center'>
       <div className='row'>
-        <div className='col-sm-12 col-md-6'>
+        <div className='col-sm-12 col-md-6 my-3'>
           <Photo />
         </div>
-        <div className='col-sm-12 col-md-6'>
+        <div className='col-sm-12 col-md-6 my-3'>
           <Resume />
         </div>
       </div>

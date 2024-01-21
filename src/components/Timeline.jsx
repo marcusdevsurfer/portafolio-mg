@@ -6,7 +6,7 @@ const listActivitiesListHCLFirstProject = [
     'Working in an agile environment and having constant communication with work members and project managers to solve questions or doubts about the project process, all the time the communication is in English because it is a multicultural team mixed with people from India and the United States.',
     'The project architecture is based on a microservices architecture deployed in containers and developed on Spring Boot, using some importants dependencies of Spring boot like security and spring web. Usually I attend user stories to develop new code or new functionalities to the project and also receive the code review and create the pull request to implement it in the production environment.',
     'Create solutions to implement when bugs or defects are detected in the production environment, all these tickets are posted and assigned in a Jira dashboard.',
-    'Use of Kibana Tool to debugging services in the project when defects appear in the production environment, when the problem is detected we have to provide a fix code or route this to the correct module or layer of the application.' 
+    'Use of Kibana Tool to debugging services in the project when defects appear in the production environment, when the problem is detected we have to provide a fix code or route this to the correct module or layer of the application.'
 ]
 
 const listActivitiesListHCLSecondProject = [
@@ -33,12 +33,29 @@ export const Timeline = () => {
 
 
     return (
-        <div className='container d-flex flex-column align-items-center justify-content-center'>
-            <Episode enterprise={'HCLTECH'} client={'Verizon'} jobRole={'Production Support and Development.'} activities={listActivitiesListHCLFirstProject} color={'black'}/>
-            <canvas className='card-separator'></canvas>
-            <Episode enterprise={'HCLTECH'} client={'Verizon'} jobRole={'Dashboard Summary'} activities={listActivitiesListHCLSecondProject}/>
-            <canvas className='card-separator'></canvas>
-            <Episode enterprise={'IBM'} client={'USAA'} jobRole={'Unit Testing Development'} activities={listActivitiesIBM}/>
+        <div className='container'>
+
+            <div className='row justify-content-center align-items-center'>
+                <div className='col-sm-12 col-md-6 text-center'>
+                    <Episode enterprise={'HCLTECH'} client={'Verizon'} jobRole={'Production Support and Development.'} activities={listActivitiesListHCLFirstProject} />
+                    <canvas className='card-separator'></canvas>
+                </div>
+            </div>
+
+            <div className='row justify-content-center align-items-center'>
+                <div className='col-sm-12 col-md-6 text-center'>
+                    <Episode enterprise={'HCLTECH'} client={'Verizon'} jobRole={'Dashboard Summary'} activities={listActivitiesListHCLSecondProject} />
+                    <canvas className='card-separator'></canvas>
+                </div>
+            </div>
+
+            <div className='row justify-content-center align-items-center'>
+                <div className='col-sm-12 col-md-6 text-center'>
+                    <Episode enterprise={'IBM'} client={'USAA'} jobRole={'Unit Testing Development'} activities={listActivitiesIBM} />
+                </div>
+            </div>
+
+
         </div>
     )
 }
