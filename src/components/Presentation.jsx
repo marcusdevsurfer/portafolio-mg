@@ -12,8 +12,15 @@ const style = {
 export const Presentation = () => {
   return (
     <div style={style} className='container-fluid d-flex justify-content-center align-items-center'>
-      <Photo />
-      <Resume />
+      <div className='row'>
+        <div className='col-sm-12 col-md-6'>
+          <Photo />
+        </div>
+        <div className='col-sm-12 col-md-6'>
+          <Resume />
+        </div>
+      </div>
+
       <div class="bubbles">
         <div class="bubble"></div>
         <div class="bubble"></div>
