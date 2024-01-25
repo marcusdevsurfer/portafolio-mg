@@ -1,0 +1,42 @@
+import React from 'react'
+
+export const Contact = () => {
+
+  const handleSubmitFormClick = (e) => {
+    e.preventDefault()
+    alert("I'm working on this function. It will be available soon be patient.")
+
+  }
+
+  return (
+    <div className='mb-3 d-flex bg-black text-white flex-column align-items-center container rounded-4'>
+
+      <div className='my-3'>
+        <h3>Get In Touch</h3>
+      </div>
+
+      <div>
+        <form>
+
+          <div className='mb-2'>
+            <label htmlFor="name" className='form-label'>Name</label>
+            <input id='name' name='name' className='form-control' type="text" />
+          </div>
+
+          <div className='mb-2'>
+            <label htmlFor="mail" className='form-label'>Email</label>
+            <input id='mail' name='mail' className='form-control' type="text" />
+          </div>
+
+          <div className='mb-2'>
+            <textarea className='form-control' placeholder='Message' name="" id="" cols="30" rows="10"></textarea>
+          </div>
+
+          <div className='text-center my-3'>
+            <input className='btn bg-white text-black' type="submit" value={'Enviar'} onClick={handleSubmitFormClick} />
+          </div>
+        </form>
+      </div>
+    </div>
+  )
+}
