@@ -28,7 +28,8 @@ export const Episode = ({ enterprise, client, jobRole, activities, color}) => {
     }
 
     return (
-        <div className='card my-3 bg-black text-white'>
+        <div className='card my-2 bg-black text-white rounded-4'>
+
             <div className='card-body'>
                 <div className='d-flex'>
                     <h5 className='card-title'>{enterprise}</h5>

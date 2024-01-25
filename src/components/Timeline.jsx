@@ -33,7 +33,10 @@ export const Timeline = () => {
 
 
     return (
-        <div className='container'>
+        <div className='container mb-3'>
+            <div className='text-center my-3'>
+                <h3>Timeline</h3>
+            </div>
 
             <div className='row justify-content-center align-items-center'>
                 <div className='col-sm-12 col-md-6 text-center'>
