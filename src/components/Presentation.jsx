@@ -11,12 +11,12 @@ const style = {
 
 export const Presentation = () => {
   return (
-    <div style={style} className='container-fluid d-flex justify-content-center align-items-center mb-3'>
-      <div className='row'>
-        <div className='col-sm-12 col-md-6 my-3'>
+    <div className='container'>
+      <div style={style} className='row align-items-center justify-content-center'>
+        <div className='col-auto col-md-6 text-cente'>
           <Photo />
         </div>
-        <div className='col-sm-12 col-md-6 my-3'>
+        <div className='col-auto col-md-6'>
           <Resume />
         </div>
       </div>
